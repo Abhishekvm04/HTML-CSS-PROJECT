@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best Flights | Travel Agency</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif; 
+            margin: 0; 
+            padding: 0; 
+            background-color: #f4f4f4; 
+            color: #333;
+        }
+
+        header {
+            background-color: #0077cc; 
+            color: white; 
+            padding: 20px 0; 
+            text-align: center;
+            position: relative; 
+        }
+
+        header img {
+            max-width: 150px; 
+            margin-bottom: 10px;
+        }
+
+        .back-home {
+            position: absolute; 
+            top: 20px; 
+            left: 20px; 
+            background-color: red; 
+            color: white; 
+            padding: 10px 15px; 
+            text-decoration: none; 
+            border-radius: 5px; 
+            transition: background-color 0.3s; 
+        }
+
+        .back-home:hover {
+            background-color: darkred; 
+        }
+
+        main {
+            padding: 20px;
+            display: flex; 
+            flex-direction: column; 
+            align-items: center;
+        }
+
+        h2, h3, h4 {
+            margin: 10px 0;
+            text-align: center; 
+        }
+
+        .flight-list {
+            width: 80%; 
+            display: flex; 
+            flex-direction: column; 
+            gap: 20px; 
+        }
+
+        .flight-box {
+            background: white; 
+            padding: 20px; 
+            border-radius: 5px; 
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            position: relative; 
+            overflow: hidden; 
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .flight-box:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        blockquote {
+            background: white; 
+            padding: 15px; 
+            border-radius: 5px; 
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            margin: 10px 0; 
+        }
+
+        .call-to-action {
+            padding: 20px; 
+            text-align: center; 
+            background-color: #0077cc; 
+            color: white;
+            margin-top: 20px; 
+            border-radius: 5px; 
+        }
+
+        .call-to-action a {
+            background: white; 
+            color: #0077cc; 
+            padding: 10px 20px; 
+            text-decoration: none; 
+            border-radius: 5px;
+        }
+
+        footer {
+            background-color: #333; 
+            color: white; 
+            text-align: center; 
+            padding: 10px 0; 
+            position: relative; 
+            bottom: 0; 
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="project2.html" class="back-home">Back to Home</a>
+        <img src="Screenshot (96).png" alt="Travel Agency Logo" height="150px" width="300px">
+        <h1>Best Flights</h1>
+    </header>
+    
+    <main>
+        <section class="introduction">
+            <h2>Discover Unbeatable Flight Deals</h2>
+            <p><b>At AVM Travels</b>, we are dedicated to providing you with the best flight options across Europe. Whether you’re planning a romantic getaway, a family vacation, or a business trip, we’ve got you covered!</p>
+        </section>
+
+        <section class="flight-list">
+            <h3>Our Top Flight Picks</h3>
+            <div class="flight-box">
+                <h4>Flight to Rome</h4>
+                <img src="ROME.jpeg" alt="Rome" style="width:50%; border-radius: 5px;">
+                <p>From: New York</p>
+                <p>Airline: Delta Airlines</p>
+                <p>Price: $499</p>
+            </div>
+            <div class="flight-box">
+                <h4>Flight to London</h4>
+                <img src="London Eye image.jpg" alt="London" style="width:50%; border-radius: 5px;">
+                <p>From: San Francisco</p>
+                <p>Airline: British Airways</p>
+                <p>Price: $399</p>
+            </div>
+            <div class="flight-box">
+                <h4>Flight to Berlin</h4>
+                <img src="Berlin image.webp" alt="Berlin" style="width:50%; border-radius: 5px;">
+                <p>From: Los Angeles</p>
+                <p>Airline: Lufthansa</p>
+                <p>Price: $599</p>
+            </div>
+            <div class="flight-box">
+                <h4>Flight to Paris</h4>
+                <img src="Paris, France image.jpg" alt="Paris" style="width:50%; border-radius: 5px;">
+                <p>From: Miami</p>
+                <p>Airline: Air France</p>
+                <p>Price: $399</p>
+            </div>
+            <div class="flight-box">
+                <h4>Flight to Amsterdam</h4>
+                <img src="Amsterdam, Netherlands.avif" alt="Amsterdam" style="width:50%; border-radius: 5px;">
+                <p>From: Chicago</p>
+                <p>Airline: KLM Royal Dutch Airlines</p>
+                <p>Price: $449</p>
+            </div>
+            <div class="flight-box">
+                <h4>Full Europe Package</h4>
+                <img src="full europe.jpg" alt="Europe" style="width:50%; border-radius: 5px;">
+                <p>Explore multiple cities!</p>
+                <p>Airlines: Various Airlines</p>
+                <p>Price: $1299</p>
+            </div>
+        </section>
+
+        <section class="testimonials">
+            <h3>What Our Customers Say</h3>
+            <blockquote>
+                <p>"Thanks to [Your Agency Name], I had the trip of a lifetime! Everything was perfectly arranged and the prices were unbeatable!"</p>
+                <footer>- Sarah T.</footer>
+            </blockquote>
+            <blockquote style="margin-top: 10px;">
+                <p>"I highly recommend [Your Agency Name]. Their customer service is excellent, and they helped me find the best deals!"</p>
+                <footer>- Mark R.</footer>
+            </blockquote>
+        </section>
+
+        <section class="call-to-action">
+            <h2>Ready to Book Your Next Flight?</h2>
+            <p>Contact us today to find the best deals and get personalized service!</p>
+            <a href="contact.html">Get in Touch</a>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 [Your Agency Name]. All rights reserved.</p>
+    </footer>
+</body>
+</html>
